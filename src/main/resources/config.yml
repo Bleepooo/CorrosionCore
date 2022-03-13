@@ -1,0 +1,17 @@
+# CorrsionSMP Core by Bleepo
+
+FirstJoinMessage: "&7Welcome &b{player} &7to CorrosionSMP!"
+JoinMessage: "&7{player} joined."
+LeaveMessage: "&7{player} left."
+
+Tablist:
+  Header:
+    - "&c&lCorrosion&b&lSMP"
+    - "&r"
+    - "&6good smp"
+    - "&r"
+  Footer:
+    - "&r"
+    - "&7tps %tps% &7- ping &b%ping% &7- players &b%players% &7- uptime &b%uptime%"
+    - "&r"
+    - "&7discord: https://discord.gg/9ej3xT5NBb"
