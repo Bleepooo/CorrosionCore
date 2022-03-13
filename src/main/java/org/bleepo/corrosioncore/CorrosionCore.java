@@ -2,6 +2,7 @@ package org.bleepo.corrosioncore;
 
 import net.md_5.bungee.api.chat.BaseComponent;
 import net.md_5.bungee.api.chat.TextComponent;
+import org.bleepo.corrosioncore.commands.RulesCommand;
 import org.bleepo.corrosioncore.listeners.JoinMessages;
 import org.bleepo.corrosioncore.utils.Utils;
 import org.bukkit.Bukkit;
@@ -25,6 +26,7 @@ public final class CorrosionCore extends JavaPlugin {
 
         //load shit
         getServer().getPluginManager().registerEvents(new JoinMessages(), this);
+        this.getCommand("rules").setExecutor(new RulesCommand());
 
         // Don't ask why I do this in the main class im a lazy asf
         nigger = new BukkitRunnable() {

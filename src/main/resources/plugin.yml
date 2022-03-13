@@ -4,3 +4,7 @@ main: org.bleepo.corrosioncore.CorrosionCore
 api-version: 1.18
 authors: [ Bleepo ]
 description: CORE PLUGIN LMFAO
+commands:
+  rules:
+    description: nigger
+    usage: /<command>
