@@ -23,6 +23,7 @@ public class Utils {
 
     public static String getTps() {
         double tps = Math.max(Bukkit.getTPS()[0], 20);
+        if (tps > 20) return "20*";
         return df.format(tps);
     }
 
